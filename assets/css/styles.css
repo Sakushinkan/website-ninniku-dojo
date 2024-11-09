@@ -27,10 +27,18 @@ body {
     height: auto;
 }
 
+.responsive-img-little {
+    max-width: 30%; /* Larghezza massima su desktop */
+    height: auto;
+}
+
 /* Stile per schermi piccoli (mobile) */
 @media (max-width: 768px) {
     .responsive-img {
         max-width: 90%; /* Larghezza maggiore su mobile */
+    }
+    .responsive-img-little {
+        max-width: 70%; /* Larghezza maggiore su mobile */
     }
 }
 .main-image-container {
