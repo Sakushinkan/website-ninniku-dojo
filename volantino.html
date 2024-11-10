@@ -11,7 +11,7 @@
 <body>
     <!-- Header -->
     <div class="header">
-        <a style="text-decoration: none;color:white" href="https://www.sakushinkan.it/" target="_blank">SAKUSHINKAN BUDO</a>
+        <a class="link" href="https://www.sakushinkan.it/" target="_blank">SAKUSHINKAN BUDO</a>
     </div>
 
     <!-- Subheader -->
@@ -20,23 +20,25 @@
     </div>
 
     <!-- Image Section -->
-    <div class="container content-section">
-        <div class="row" style="position: relative;">
+    <div class="container">
+        <div class="row">
             <!-- Main Image centered -->
-            <div class="col-12 main-image-container">
-                <img src="assets/img/sensei.png" alt="Sakushinkan Budo" class="responsive-img">
+            <div class="col-10 col-md-8 offset-md-2 d-flex align-items-center">
+                <img src="assets/img/sensei.png" alt="Sakushinkan Budo" class="w-100">
             </div>
             <!-- Side Images for Logo and Japanese Characters -->
-            <div class="float-end side-images">
-                <img src="assets/img/logo-nagano.png" alt="Japanese Characters" class="img-fluid">
-                <img src="assets/img/logo.png" alt="Logo" class="img-fluid">
+            <div class="col-2 d-flex align-items-center">
+                <div>
+                    <img src="assets/img/logo-nagano.png" alt="Japanese Characters" class="img-fluid pb-3">
+                    <img src="assets/img/logo.png" alt="Logo" class="img-fluid">
+                </div>
             </div>
         </div>
     </div>
 
     <!-- Features Section -->
     <div class="container">
-        <div class="row features">
+        <div class="row">
             <div class="col-12 col-md-4 feature-box">
                 <h5>IMPARA L'ANTICA ARTE DI COMBATTIMENTO DEI SAMURAI</h5>
             </div>
@@ -49,7 +51,7 @@
         </div>
     </div>
     
-    <div style="background-color: #333;color:white">
+    <div class="grey-bg">
         <div class="container">
             <h2><i>Sapevi che in Italia c'è un unico tempio Buddhista di tradizione T'ientai?</i></h2>
             <p>Si chiama Tenryuzanji, e lì puoi incontrare il venerabile Monaco Seiun, fondatore della scuola Sakushinkan Budo.</p>
@@ -57,22 +59,34 @@
             
             <div class="horizontal-line-w"></div>
             
-            <div class="info-section">
+            <div class="mt-5 text-center">
                 <p><strong>Martedì e Giovedì 19.00 - 21.00</strong></p>
-                <h3><a style="text-decoration: none;color:white" href="https://sakushinkan.it/sedi#ninniku-dojo" target="_blank">Ninniku Dojo</a></h3>
+                <h3><a class="link" href="https://sakushinkan.it/sedi#ninniku-dojo" target="_blank">Ninniku Dojo</a></h3>
                 <p>Sailing Gym, Viale Elmas 59, Cagliari</p>
             </div>
         </div>
     </div>
 
-    <!-- Footer Call-to-Action -->
-    <div class="footer">
-        <a style="text-decoration: none;color:white" href="https://sakushinkan.it/#contattaci" target="_blank">PRENOTA UNA LEZIONE DI PROVA</a>
+    <div class="mt-1 mb-3 mb-md-5 text-center container">
+        <div class="row d-flex align-items-center">
+            <div class="offset-2 col-4 offset-md-3 col-md-2">
+                <img class="w-100" src="assets/img/sailing-gym.png" alt="Logo">
+            </div>
+            <div class="col-4 offset-md-2 col-md-2">
+                <img class="w-100" src="assets/img/csain.png" alt="Logo">
+            </div>
+        </div>
     </div>
 
+    <div class="horizontal-line"></div>
+
     <!-- Contact Information -->
-    <div class="contact">
+    <div class="mt-5 text-center">
         <p>Email: <a href="mailto:info@sakushinkan.it">info@sakushinkan.it</a> | Tel: <a href="tel:3394811518">339 481 1518</a> | Website: <a href="http://www.sakushinkan.it">www.sakushinkan.it</a></p>
+    </div>
+
+    <div class="call-to-action">
+        <a class="link" href="https://sakushinkan.it/#contattaci" target="_blank">PRENOTA UNA LEZIONE DI PROVA</a>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
