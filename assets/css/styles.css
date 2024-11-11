@@ -29,8 +29,9 @@ body {
 }
 
 .feature-box > h2 {
+    font-weight: bold;
     padding-top: 2rem;
-    border-top: 2px solid Gray;
+    border-top: 1px solid LightGray;
 }
 
 .call-to-action {
