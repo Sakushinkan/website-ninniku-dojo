@@ -1,6 +1,9 @@
+:root {
+    --primary-color: #333;
+}
 
 .grey-bg {
-    background-color: #333;
+    background-color: var(--primary-color);
     color: white;
 }
 
@@ -15,7 +18,7 @@ body {
 }
 
 .header {
-    background-color: #333;
+    background-color: var(--primary-color);
     color: #fff;
     text-align: center;
     padding: 2rem 0;
@@ -28,7 +31,9 @@ body {
     margin: 1rem 0;
 }
 
+.feature-box > h5,
 .feature-box > h2 {
+    color: var(--primary-color);
     font-weight: bold;
     padding-top: 2rem;
     border-top: 1px solid LightGray;
