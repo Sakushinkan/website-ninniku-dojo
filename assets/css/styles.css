@@ -28,9 +28,9 @@ body {
     margin: 1rem 0;
 }
 
-.feature-box {
-    padding: 1rem;
-    border-top: 2px solid #333;
+.feature-box > h2 {
+    padding-top: 2rem;
+    border-top: 2px solid Gray;
 }
 
 .call-to-action {
@@ -52,7 +52,7 @@ body {
 }
 
 .horizontal-line {
-    border-top: 1px solid #333;
+    border-top: 1px solid Gray;
     width: 60px;
     margin: 10px auto;
 }
