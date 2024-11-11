@@ -2,6 +2,14 @@
     --primary-color: #333;
 }
 
+.white {
+    color: white
+}
+
+.grey {
+    color: var(--primary-color);
+}
+
 .grey-bg {
     background-color: var(--primary-color);
     color: white;
@@ -9,7 +17,6 @@
 
 .link {
     text-decoration: none;
-    color:white;
 }
 
 body {
@@ -41,7 +48,7 @@ body {
 
 .call-to-action {
     position:fixed;
-    bottom:70px;
+    bottom:100px;
     width: 100%;
     background: linear-gradient(to right, #ff512f, #dd2476);
     text-align: center;
