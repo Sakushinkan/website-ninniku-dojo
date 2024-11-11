@@ -10,6 +10,10 @@
     color: var(--primary-color);
 }
 
+.black {
+    color: black;
+}
+
 .grey-bg {
     background-color: var(--primary-color);
     color: white;
