@@ -66,6 +66,10 @@ body {
     margin-bottom: 10px;
 }
 
+#nav-bar-mobile > ul {
+    list-style-type: square;
+}
+
 .feature-box > h5,
 .feature-box > h2 {
     color: var(--primary-color);
