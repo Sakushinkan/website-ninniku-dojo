@@ -2,31 +2,6 @@
     --primary-color: #333;
 }
 
-.white {
-    color: white
-}
-
-.grey {
-    color: var(--primary-color);
-}
-
-.silver-bg {
-    background-color: gray;
-}
-
-.black {
-    color: black;
-}
-
-.grey-bg {
-    background-color: var(--primary-color);
-    color: white;
-}
-
-.link {
-    text-decoration: none;
-}
-
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
@@ -43,6 +18,31 @@ body {
     text-align: center;
     font-size: 1.5rem;
     margin: 1rem 0;
+}
+
+.white {
+    color: white
+}
+
+.grey {
+    color: var(--primary-color);
+}
+
+.black {
+    color: black;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+.grey-bg {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.link {
+    text-decoration: none;
 }
 
 .nav-button {
