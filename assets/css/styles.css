@@ -41,6 +41,12 @@ body {
     margin: 1rem 0;
 }
 
+.nav-button {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 100px;
+}
+
 .rotate {
     animation: rotateImage 0.25s ease-in-out forwards;
 }
@@ -64,10 +70,6 @@ body {
 .icon {
     max-width: 80px;
     margin-bottom: 10px;
-}
-
-#nav-bar-mobile > ul {
-    list-style-type: square;
 }
 
 .feature-box > h5,
