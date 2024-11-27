@@ -47,6 +47,12 @@ body {
     width: 100px;
 }
 
+.skk-link {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2px;
+}
+
 .rotate {
     animation: rotateImage 0.25s ease-in-out forwards;
 }
