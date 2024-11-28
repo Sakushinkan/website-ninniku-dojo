@@ -137,11 +137,11 @@ body {
 }
 
 .overflow-text {
-    display: -webkit-box; /* Definisce un contenitore flessibile per il testo */
-    -webkit-box-orient: vertical; /* Imposta l'orientamento verticale */
-    -webkit-line-clamp: 3; /* Numero massimo di righe da mostrare */
-    overflow: hidden; /* Nasconde il contenuto eccedente */
-    text-overflow: ellipsis; /* Aggiunge i puntini di sospensione */
-    max-height: 4.5em; /* Altezza massima: calcolata in base all'altezza della riga */
-    line-height: 1.5em; /* Altezza di ogni riga */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 4.5em;
+    line-height: 1.5em;
   }
