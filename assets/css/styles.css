@@ -7,11 +7,14 @@ body {
     background-color: white;
     color: var(--primary-color);
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .container {
     max-width: 1000px;
     padding: 20px;
+    flex: 1;
 }
 
 .header {
