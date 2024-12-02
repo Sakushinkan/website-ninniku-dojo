@@ -1,16 +1,159 @@
 <!DOCTYPE html>
 <html lang="it">
-<head>
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
-    <meta http-equiv="refresh" content="0; url=https://sakushinkan.it">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="La scuola che coltiva lo spirito delle antiche arti marziali.">
+        <meta name="keywords" content="cagliari, sardegna, dojo, arti marziali, arti marziali tradizionali, karate, kempo, kung fu, judo, taekwondo, autodifesa, difesa personale, combattimento, stili marziali, filosofia marziale, allenamento fisico, sport da combattimento">
+        <meta name="author" content="Sakushinkan">
+        <meta name="copyright" content="Sakushinkan">
+        <meta name="language" content="Italian">
+
+        <meta property="og:title" content="Ninniku Dojo - Sakushinkan Cagliari">
+        <meta property="og:description" content="La scuola che coltiva lo spirito delle antiche arti marziali.">
+        <meta property="og:image" content="https://www.artimarzialicagliari.it/assets/img/sensei.jpg">
+        <meta property="og:image:alt" content="https://www.artimarzialicagliari.it/assets/img/sensei.png">
+        <meta property="og:url" content="https://www.artimarzialicagliari.it/ninniku_dojo">
+        <meta property="og:type" content="website">
+
+        <meta name="twitter:title" content="Ninniku Dojo - Sakushinkan Cagliari">
+        <meta name="twitter:description" content="La scuola che coltiva lo spirito delle antiche arti marziali.">
+        <meta name="twitter:image" content="https://www.artimarzialicagliari.it/assets/img/sensei.jpg">
+        <meta name="twitter:card" content="https://www.artimarzialicagliari.it/assets/img/sensei.jpg">
+
+        <title>Ninniku Dojo - Sakushinkan Cagliari</title>
+    
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+    </head>
 <body>
-    <div id="overlay" style="position: fixed;top: 0;left: 0;width: 100%;height: 100%;background: rgba(255, 255, 255, 0.8);z-index: 9999;">
-        <div style="display: flex;width: 100%;height: 100%;justify-content: center;align-items: center;">
-            <div class="spinner-border text-primary" role="status">
-                <span class="visually-hidden">Caricamento...</span>
+    <!-- HEADER E MENÙ -->
+    <div class="grey-bg">
+        <div class="container">
+            <nav class="row d-flex justify-content-between align-items-center">
+                <div class="col-11 col-md-6">
+                    <a class="white text-decoration-none" href="./index.html">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-2">
+                                <img class="main-logo" src="assets/img/logo.png" alt="Sakushunkan Logo">
+                            </div>
+                            <div class="col-10">
+                                <h5>SAKUSHINKAN BUDO</h5>
+                                <span>La scuola che coltiva lo spirito</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- desktop menu -->
+                <div class="col-md-6 text-center d-none d-md-flex justify-content-end">
+                    <ul class="navbar list-unstyled d-flex gap-3">
+                        <li class="nav-button"><a href="./index.html" class="white text-decoration-none">Home</a></li>
+                        <li class="nav-button"><a href="./eventi.html" class="white text-decoration-none">Eventi</a></li>
+                        <li class="nav-button"><a href="./contatti.html" class="white text-decoration-none">Contatti</a></li>
+                        <li class="nav-button fw-bold white-bg"><a href="./sakushinkan.html" class="grey text-decoration-none" target="_blank">La scuola</a></li>
+                    </ul>
+                </div>
+
+                <!-- mobile menu -->
+                <a class="col-1 d-flex d-md-none justify-content-end navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-bar-mobile">
+                    <img src="assets/img/hamburger.png" class="navbar-toggler-icon me-3">
+                </a>
+                
+                <div class="mt-3 navbar-collapse collapse" id="nav-bar-mobile">
+                    <ul class="list-unstyled navbar navbar-nav text-center gap-2" role="navigation">
+                        <li class="nav-button nav-item">
+                            <a class="white text-decoration-none" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-button nav-item">
+                            <a class="white text-decoration-none" aria-current="page" href="./eventi.html">Eventi</a>
+                        </li>
+                        <li class="nav-button nav-item">
+                            <a class="white text-decoration-none" aria-current="page" href="./contatti.html">Contatti</a>
+                        </li>
+                        <li class="nav-button nav-item fw-bold white-bg">
+                            <a class="grey text-decoration-none" aria-current="page" href="./sakushinkan.html" target="_blank">La scuola</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- FINE HEADER E MENÙ -->
+    
+    <div class="subheader">
+        LA SCUOLA DI ANTICHE ARTI SAMURAI A CAGLIARI
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-10 col-md-8 offset-md-2 d-flex align-items-center">
+                <img src="assets/img/sensei.png" alt="Sakushinkan Budo" class="w-100">
+            </div>
+            <div class="col-2 d-flex align-items-center">
+                <div>
+                    <img src="assets/img/logo-nagano.png" alt="Japanese Characters" class="img-fluid pb-3">
+                    <img src="assets/img/logo.png" alt="Logo" class="img-fluid">
+                </div>
             </div>
         </div>
     </div>
+
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-12 col-md-4">
+                <h5 class="top-border">IMPARA L'ANTICA ARTE DI COMBATTIMENTO DEI SAMURAI</h5>
+            </div>
+            <div class="col-12 col-md-4">
+                <h5 class="top-border">RENDI IL TUO CORPO FORTE E FLESSIBILE COME IL BAMBOO</h5>
+            </div>
+            <div class="col-12 col-md-4">
+                <h5 class="top-border">COLTIVA LA TUA SPIRITUALITÀ IN UN AUTENTICO TEMPIO BUDDHISTA</h5>
+            </div>
+        </div>
+    </div>
+    
+    <div class="grey-bg">
+        <div class="container">
+            <h2><i>Sapevi che in Italia esiste un tempio buddhista dove si praticano le antiche e autentiche arti marziali?</i></h2>
+            <p>Si chiama Tenryuzanji, e lì puoi incontrare il <a class="white" href="https://www.sakushinkan.it/seiun" target="_blank">venerabile Seiun</a>, Monaco guerriero fondatore della scuola Sakushinkan.</p>
+            <p>Il Sakushinkan Budo è il metodo di addestramento alle Nio Shin Ryu Kempo, antica arte guerriera del Giappone, che include le discipline tradizionali di combattimento a mani nude e armato.</p>
+        </div>
+    </div>
+
+    <div class="container mb-4">
+        <div class="row d-flex align-items-center justify-content-center">
+            <iframe class="col-12 col-md-6" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49454.287777606536!2d9.1124147!3d39.2225961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12e735467c2f7f8b%3A0xb3a41bb65df55aa1!2sSakushinkan%20Ninniku%20Dojo!5e0!3m2!1sen!2sit!4v1732548719626!5m2!1sen!2sit"></iframe>
+            <div class="col-8 col-md-3 offset-md-1 mt-3 mt-md-0 text-center">
+                <a class="text-decoration-none" href="./sakushinkan.html/sedi#ninniku-dojo" target="_blank"><p class="fs-4 border grey">Ninniku Dojo</p></a>
+                <span><strong>Martedì e Giovedì<br>19.00 - 21.00</strong></span><br>
+                <img class="w-50" src="assets/img/sailing-gym.png" alt="Sailing Gym">
+                <p>Viale Elmas 59, Cagliari</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="grey-bg pt-5 pb-4 text-center">
+        <span class="contacts">
+            <i class="bi bi-envelope"></i> <a class="white" href="mailto:info@sakushinkan.it">info@sakushinkan.it</a> | 
+            <i class="bi bi-telephone"></i> <a class="white" href="tel:3394811518">339 481 1518</a><br>
+            <i class="bi bi-globe"></i> <a class="white" href="https://www.sakushinkan.it" target="_blank">sakushinkan.it</a>
+        </span>
+    </div>
+
+    <div class="call-to-action">
+        <a class="text-decoration-none white" href="./sakushinkan.html/#contattaci" target="_blank">PRENOTA UNA LEZIONE DI PROVA</a>
+    </div>
+
+    <footer>
+        <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="40c7e3a4-048b-45db-bfde-eeafba0a26ab" data-blockingmode="auto" type="text/javascript"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </footer>
 </body>
 </html>
