@@ -1,2 +1,3 @@
 User-agent: *
 Disallow: /sakushinkan.html
+Disallow: /stage.html
