@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://artimarzialicagliari.it/</loc>
+        <lastmod>2025-02-10</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://artimarzialicagliari.it/eventi</loc>
+        <lastmod>2025-02-10</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://artimarzialicagliari.it/contatti</loc>
+        <lastmod>2025-02-10</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://artimarzialicagliari.it/stage_301124</loc>
+        <lastmod>2025-02-10</lastmod>
+        <priority>0.7</priority>
+    </url>
+</urlset>
