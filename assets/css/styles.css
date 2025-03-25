@@ -47,6 +47,13 @@ body {
     color: white;
 }
 
+.contacts-button {
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+}
+
 .nav-button {
     border: 2px solid white;
     border-radius: 10px;
