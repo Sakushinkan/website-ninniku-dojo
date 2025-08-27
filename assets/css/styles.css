@@ -11,6 +11,10 @@ body {
     flex-direction: column;
 }
 
+.spacer {
+    height: 120px;
+}
+
 .container {
     max-width: 1000px;
     padding: 20px;
