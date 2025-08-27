@@ -90,6 +90,12 @@ body {
     }
 }
 
+.main-logo {
+    height: auto;
+    width: 100%;
+    max-width: 58px;
+}
+
 .icon {
     max-width: 80px;
     margin-bottom: 10px;
