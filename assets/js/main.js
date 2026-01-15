@@ -26,3 +26,11 @@ $(document).on('classChanged', '.navbar-toggler', function() {
         animateNavbarWith(this, 'assets/img/x-icon.png');
     }
 });
+
+$(document).on("click", ".faq-item", function() {
+    $('.faq-answer').not($(this).next()).slideUp(300);
+    $('.faq-item').not($(this)).removeClass('faq-open');
+
+    $(this).next('.faq-answer').slideToggle(300);
+    $(this).toggleClass('faq-open');
+});

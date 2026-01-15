@@ -38,6 +38,10 @@ body {
     color: white
 }
 
+.black {
+    color: black
+}
+
 .grey {
     color: var(--primary-color);
 }
@@ -61,7 +65,7 @@ body {
 .nav-button {
     border: 2px solid white;
     border-radius: 10px;
-    width: 100px;
+    width: 90px;
 }
 
 .border {
@@ -154,3 +158,27 @@ body {
     max-height: 4.5em;
     line-height: 1.5em;
   }
+
+  .faq-item {
+      cursor: pointer;
+      user-select: none;
+      padding: 10px 15px;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .faq-answer {
+      display: none;
+      padding: 10px 15px;
+      background-color: #e9ecef;
+    }
+
+    .faq-icon {
+      transition: transform 0.3s ease;
+    }
+
+    .faq-open .faq-icon {
+      transform: rotate(90deg);
+    }
