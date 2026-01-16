@@ -176,9 +176,10 @@ body {
     }
 
     .faq-icon {
-      transition: transform 0.3s ease;
+        transition: transform 0.3s ease;
+        font-size: 1.2rem;
     }
-
+    
     .faq-open .faq-icon {
-      transform: rotate(90deg);
+        transform: rotate(90deg);
     }
