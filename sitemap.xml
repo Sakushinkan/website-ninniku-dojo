@@ -16,8 +16,13 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://artimarzialicagliari.it/eventi</loc>
-        <lastmod>2025-09-29</lastmod>
+        <loc>https://artimarzialicagliari.it/news</loc>
+        <lastmod>2026-09-28</lastmod>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://artimarzialicagliari.it/giornata_del_budo_2026</loc>
+        <lastmod>2026-09-28</lastmod>
         <priority>0.6</priority>
     </url>
     <url>
