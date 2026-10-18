@@ -67,6 +67,30 @@ body {
     width: 90px;
 }
 
+/* Keep the course label readable without widening every navigation item. */
+nav .nav-button {
+    width: auto;
+}
+
+nav .nav-button > a {
+    display: block;
+    padding: 0.3rem 0.55rem;
+    white-space: nowrap;
+}
+
+@media (min-width: 992px) {
+    nav .navbar {
+        flex-wrap: nowrap;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+    #nav-bar-mobile .nav-button {
+        width: 180px;
+    }
+}
+
 .border {
     border: 2px solid var(--primary-color);
     border-radius: 10px;
