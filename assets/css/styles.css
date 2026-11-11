@@ -64,6 +64,15 @@ body > main { flex: 1; }
 .site-footer a { color: #fff; text-underline-offset: .2em; }
 .site-footer .footer-links { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; margin-top: .75rem; }
 .site-footer .footer-links a { display: inline-block; padding-block: .35rem; }
+.site-footer .privacy-settings { border: 0; padding: .35rem 0; color: #fff; background: transparent; font: inherit; text-decoration: underline; text-underline-offset: .2em; }
+.site-footer > .container { display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 2rem; }
+.site-footer > .container > p, .site-footer .footer-links { grid-column: 1; }
+.site-footer .footer-affiliation { grid-column: 2; grid-row: 1 / 4; align-self: center; display: flex; flex-direction: column; align-items: flex-end; gap: .6rem; max-width: 180px; text-align: right; font-size: .8rem; }
+.site-footer .footer-affiliation img { display: block; width: 160px; height: auto; padding: .4rem; background: #fff; border-radius: 3px; }
+@media (max-width: 600px) {
+    .site-footer > .container { display: block; }
+    .site-footer .footer-affiliation { margin-top: 1.5rem; margin-left: auto; }
+}
 a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px solid #a63c15; outline-offset: 4px; }
 .grey-bg a:focus-visible, .grey-bg button:focus-visible { outline-color: #ffcf9e; }
 .archive-notice { border-left: 4px solid #333; padding: 1rem; background: #f2f2ef; color: #333; }
