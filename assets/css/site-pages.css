@@ -1,0 +1,113 @@
+/* Layout delle pagine di orientamento e del corso Kempo. */
+.site-page { line-height: 1.65; }
+.site-page h1, .site-page h2, .site-page h3 { line-height: 1.2; }
+.site-page h1 { font-size: clamp(2rem, 5vw, 3.25rem); }
+.site-page .intro { max-width: 760px; margin-inline: auto; }
+.site-page .eyebrow { text-transform: uppercase; letter-spacing: .12em; font-size: .8rem; font-weight: bold; }
+.site-page .lead { font-size: 1.2rem; }
+.site-page main > section { padding-block: 1.5rem; }
+.site-page .course-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; }
+.site-page .course-card { border: 1px solid #d6d6d6; border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; background: #fff; }
+.site-page .course-card img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: contain; background: #fff; }
+.site-page .course-card .card-copy { padding: 1.5rem; display: flex; flex-direction: column; flex: 1; }
+.site-page .course-card h3 { font-size: 1.6rem; }
+.site-page .course-card .action { align-self: flex-start; margin-top: auto; }
+.site-page .course-card .course-action { display: flex; align-items: center; justify-content: center; width: 100%; min-height: 3.5rem; }
+.site-page .course-card .photo-crop { object-fit: cover; object-position: center 50%; }
+.site-page .action { display: inline-block; padding: .7rem 1rem; border: 2px solid #333; border-radius: 6px; background: #333; color: #fff; font-weight: bold; text-decoration: none; text-align: center; }
+.site-page .action:hover { background: #555; color: #fff; }
+.site-page .action.secondary { color: #333; background: #fff; }
+.site-page .actions { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1.25rem; }
+.site-page .info-panel { padding: 1.5rem; background: #f2f2ef; border-left: 4px solid #333; }
+.site-page .practice-photo { width: 100%; height: auto; display: block; border-radius: 6px; }
+.site-page .kempo-visual .practice-photo { max-width: 560px; margin-inline: auto; }
+.site-page main > .course-hero { background: #f2f2ef; border-bottom: 1px solid #deded8; padding-block: 1.5rem; }
+.site-page .hero-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; align-items: center; }
+.site-page .hero-grid h1 { margin-block: .5rem 1.25rem; }
+.site-page .audience { display: flex; flex-wrap: wrap; gap: .5rem; list-style: none; padding: 0; margin-block: 0 1.25rem; }
+.site-page .audience li { padding: .25rem .75rem; border: 1px solid #cccfc7; border-radius: 100px; background: #fff; font-size: .9rem; }
+.site-page .hero-photo { margin: 0; }
+.site-page .hero-photo img { display: block; width: 100%; height: auto; border-radius: 8px; }
+.site-page .hero-photo figcaption { margin-top: .75rem; font-size: .85rem; color: #555; }
+.site-page .hero-details { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 2rem; padding-top: 1.25rem; border-top: 1px solid #cccfc7; }
+.site-page .hero-details p { margin: 0; }
+.site-page .section-heading { max-width: 760px; margin-bottom: 1.75rem; }
+.site-page .contact-methods { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.site-page .contact-method { display: flex; flex-direction: column; padding: 1.5rem; border: 1px solid #d6d6d6; border-radius: 8px; }
+.site-page .contact-method > .bi { font-size: 1.5rem; margin-bottom: 1rem; }
+.site-page .contact-method h2 { font-size: 1.35rem; }
+.site-page .contact-method .action { margin-top: auto; overflow-wrap: anywhere; }
+.site-page .contact-layout { display: grid; grid-template-columns: .9fr 1.1fr; gap: 2rem; align-items: start; }
+.site-page .venue-heading { display: flex; gap: 1rem; align-items: center; margin-bottom: 1.5rem; }
+.site-page .venue-logo { width: 72px; height: auto; }
+.site-page .course-times { margin-block: 1.5rem; }
+.site-page .course-times div { padding-block: 1rem; border-top: 1px solid #d6d6d6; }
+.site-page .course-times dd { margin: .35rem 0 0; }
+.site-page .map-panel iframe { width: 100%; height: 360px; border: 1px solid #d6d6d6; border-radius: 8px; display: block; }
+.site-page .map-panel > a { display: inline-block; margin-top: .75rem; color: #333; }
+.site-page .social-links { display: flex; flex-wrap: wrap; gap: 1rem 1.5rem; }
+.site-page .social-links a { display: inline-block; padding-block: .5rem; color: #333; }
+.site-page .school-heritage { border-block: 1px solid #deded8; background: #fff; }
+.site-page .heritage-grid { display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: 2.5rem; align-items: center; }
+.site-page .heritage-emblems { display: flex; align-items: center; justify-content: center; gap: 1.25rem; margin: 0; }
+.site-page .heritage-kanji { width: auto; height: 132px; }
+.site-page .heritage-logo { width: 100px; height: 100px; }
+.site-page .heritage-copy p:last-child { margin-bottom: 0; }
+.site-page .event-label { display: inline-block; padding: .25rem .65rem; border-radius: 100px; font-size: .85rem; background: #eeeee9; color: #333; }
+.site-page .event-date { margin-block: 1rem; font-weight: bold; }
+.site-page .event-list { display: grid; gap: 1.5rem; }
+.site-page .event-row { display: grid; grid-template-columns: 300px minmax(0, 1fr); border: 1px solid #d6d6d6; border-radius: 8px; overflow: hidden; }
+.site-page .event-row > img { width: 100%; height: 100%; min-height: 240px; object-fit: cover; }
+.site-page .event-row .event-copy { padding: 1.5rem; }
+.site-page .event-row h2 { font-size: 1.55rem; }
+.site-page .event-intro { background: #f2f2ef; border-bottom: 1px solid #deded8; }
+.site-page .event-intro h1 { max-width: 850px; margin-top: 1rem; }
+.site-page .back-link { display: inline-block; margin-bottom: 1.25rem; color: #333; }
+.site-page .event-facts { display: flex; flex-wrap: wrap; gap: 1rem 3rem; margin-block: 1.5rem; }
+.site-page .event-facts dd { margin: .3rem 0 0; }
+.site-page .event-visual { max-width: 760px; margin: 0 auto; }
+.site-page .event-visual img { display: block; width: 100%; height: auto; border-radius: 6px; }
+.site-page .event-visual figcaption { margin-top: .75rem; font-size: .85rem; color: #555; }
+.site-page .practice-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem; }
+.site-page .practice-grid h3 { font-size: 1.35rem; padding-top: 1rem; border-top: 1px solid #d6d6d6; }
+.site-page .soft-section { background: #f2f2ef; border-block: 1px solid #deded8; }
+.site-page .event-program { width: 100%; border-collapse: collapse; margin-block: 1rem; }
+.site-page .event-program th, .site-page .event-program td { padding: .8rem; border-bottom: 1px solid #d6d6d6; text-align: left; vertical-align: top; }
+.site-page .event-program th:first-child { width: 145px; }
+.site-page .event-affiliations { display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: center; margin-top: 1.5rem; }
+.site-page .event-affiliations img { width: auto; height: 72px; max-width: 100px; object-fit: contain; }
+@media (max-width: 899.98px) {
+    .site-page .hero-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+    .site-page .hero-photo img { max-width: 640px; }
+    .site-page .contact-methods { grid-template-columns: 1fr; }
+    .site-page .contact-layout { grid-template-columns: 1fr; }
+    .site-page .heritage-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+    .site-page .heritage-emblems { justify-content: flex-start; }
+}
+@media (max-width: 479.98px) {
+    .site-page .hero-details { grid-template-columns: 1fr; gap: 1rem; }
+    .site-page .contact-method { padding: 1.25rem; }
+}
+.site-page details { border-bottom: 1px solid #d5d5d5; padding: 1rem 0; scroll-margin-top: 1rem; }
+.site-page summary { cursor: pointer; font-weight: bold; padding: .5rem; }
+.site-page details .answer { padding: .75rem .5rem 0; }
+.site-page details .answer p:last-child { margin-bottom: 0; }
+.site-page a:focus-visible, .site-page summary:focus-visible { outline: 3px solid #a63c15; outline-offset: 4px; }
+.site-page .grey-bg a:focus-visible { outline-color: #ffcf9e; }
+.site-page .school-mark { max-width: 90px; max-height: 90px; object-fit: contain; padding: .5rem; background: #fff; border-radius: 4px; }
+.site-page .course-school-mark { display: block; width: 100%; max-height: 90px; object-fit: contain; }
+.site-page .schedule { margin-bottom: 0; }
+.site-page .schedule div { padding-block: .5rem; }
+.site-page .schedule dt, .site-page .schedule dd { display: inline; }
+.site-page .schedule dd { margin-left: .5rem; }
+@media (max-width: 767.98px) {
+    .site-page .course-grid { grid-template-columns: 1fr; }
+    .site-page .course-card .card-copy { padding: 1.25rem; }
+    .site-page main > section { padding-block: .75rem; }
+    .site-page .event-row { grid-template-columns: 1fr; }
+    .site-page .event-row > img { height: auto; min-height: 0; aspect-ratio: 16 / 9; }
+    .site-page .event-row .event-copy { padding: 1.25rem; }
+    .site-page .practice-grid { grid-template-columns: 1fr; }
+    .site-page .event-program th, .site-page .event-program td { padding: .65rem .35rem; }
+    .site-page .event-program th:first-child { width: 105px; }
+}

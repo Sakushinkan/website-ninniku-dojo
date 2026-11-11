@@ -11,6 +11,11 @@ body {
     flex-direction: column;
 }
 
+body > main { flex: 1; }
+.skip-link { position: absolute; z-index: 10000; left: 1rem; top: .5rem; transform: translateY(-200%); padding: .7rem 1rem; border: 2px solid #333; border-radius: 4px; background: #fff; color: #333; font-weight: bold; }
+.skip-link:focus { transform: translateY(0); }
+.contacts-button > a { display: block; padding: .35rem; }
+
 .spacer {
     height: 120px;
 }
@@ -54,6 +59,15 @@ body {
     color: white;
 }
 
+/* Footer e controlli condivisi da tutte le pagine del sito. */
+.site-footer { margin-top: auto; padding-block: 1.5rem; line-height: 1.65; font-size: 1rem; }
+.site-footer a { color: #fff; text-underline-offset: .2em; }
+.site-footer .footer-links { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; margin-top: .75rem; }
+.site-footer .footer-links a { display: inline-block; padding-block: .35rem; }
+a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px solid #a63c15; outline-offset: 4px; }
+.grey-bg a:focus-visible, .grey-bg button:focus-visible { outline-color: #ffcf9e; }
+.archive-notice { border-left: 4px solid #333; padding: 1rem; background: #f2f2ef; color: #333; }
+
 .contacts-button {
     border: 2px solid var(--primary-color);
     border-radius: 10px;
@@ -79,6 +93,7 @@ nav .nav-button > a {
 }
 
 @media (min-width: 992px) {
+    #nav-bar-mobile { display: none !important; }
     nav .navbar {
         flex-wrap: nowrap;
         font-size: 0.9rem;
@@ -126,30 +141,6 @@ nav .nav-button > a {
 .icon {
     max-width: 80px;
     margin-bottom: 10px;
-}
-
-.call-to-action {
-    min-height: 2px;
-    position:fixed;
-    bottom: 100px;
-    width: 100%;
-    background: linear-gradient(to right, #ff512f, #dd2476);
-    text-align: center;
-    padding: 1rem 0;
-    color: white;
-    font-weight: bold;
-    font-size: 1.2rem;
-}
-
-.expiration {
-    background: linear-gradient(to right, #ff512f, #dd2476);
-    border: 1px solid var(--primary-color);
-    text-align: center;
-    padding: 0.7rem;
-    color: #fff;
-    font-weight: bold;
-    font-size: 0.7rem;
-    border-radius: 50%;
 }
 
 .horizontal-line {
